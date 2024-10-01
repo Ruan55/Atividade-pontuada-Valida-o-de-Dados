@@ -17,7 +17,7 @@ medico = Medico(222, "Maiara", "4444-3333", "Maiara22@gmail.com", Endereco("Rua 
 advogado = Advogado(333, "Roberto", "8899-0033", "Rober@gmail.com", Endereco("Rua U", "67", "N/A", "9999", "Rio de Janeiro", UnidadeFederativa.RIO_DE_JANEIRO), Sexo.MASCULINO, EstadoCivil.CASADO, "04/02/1978", "4344", "3244", "8943", Setor.JURIDICO, 4500, "7777")
 cliente = Cliente(111, "Amanda", "8342-4234", "Amanda323@gmail.com", Endereco("Rua R", "90", "N/A", "3333", "São Paulo", UnidadeFederativa.SAO_PAULO), Sexo.FEMININO, EstadoCivil.CASADO, "08/07/2004", 101010)
 prestacao_servico = PrestacaoServicos(444, "Roni", "0904-1010", "RoniGol@gmail.com", Endereco("Rua P", "45", "N/A", "7777", "Rio de Janeiro", UnidadeFederativa.RIO_DE_JANEIRO), "32323", "90804", "20/08/2024", "20/08/2025")
-fornecedor = Fornecedor(777, "Palmeiras", "0942-5423", "Palmeiras@gmail.com", Endereco("Rua P", "12", "N/A", "8302", "São Paulo", UnidadeFederativa.RIO_DE_JANEIRO), "32434", "87900", "Uniforme 1")
+fornecedor = Fornecedor(777, "Palmeiras", "0942-5423", "Palmeiras@gmail.com", Endereco("Rua P", "12", "N/A", "8302", "São Paulo", UnidadeFederativa.SAO_PAULO), "32434", "87900", "Uniforme 1")
 
 print(engenheiro)
 print(medico)
